@@ -6,7 +6,7 @@ Real Time Head Pose Estimation
 
 <h1>Project: Real time estimating of cameras(head) position/rotation </h1>
 <h3>By Firas Ayoub</h2>
-![](imgs_for_web/vr.png)
+![](RealTime-Head-Pose-Estimation/media/imgs_for_web/vr.png)
 <p><img src="imgs_for_web/vr.png" width="750" height="450"></p>
 <h2>Overview:</h2>
 <p> This projects main purpose is to estimate orientation and position of a group of cameras(in my project i used only 2 cameras but code is compatble for more cameras) , wich can be later installed on a headset to get real time estimation of heads position eg. using this data in an augumented or virtual reality applications.
