@@ -1,3 +1,5 @@
+#~ take pictures for the calebration and save them in a file. just choose what you need the pictures for, Intrnsic or Extrinsic,
+#~ and use spacebar button to take the picture
 import cv2
 import numpy as np
 def Calibration(ForIntrnsic,ForExtrinsic):
