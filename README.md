@@ -6,8 +6,7 @@ Real Time Head Pose Estimation
 
 <h1>Project: Real time estimating of cameras(head) position/rotation </h1>
 <h3>By Firas Ayoub</h2>
-![](media/imgs_for_web/vr.png)
-<p><img src="imgs_for_web/vr.png" width="750" height="450"></p>
+<p><img src="media/imgs_for_web/vr.png" width="750" height="450"></p>
 <h2>Overview:</h2>
 <p> This projects main purpose is to estimate orientation and position of a group of cameras(in my project i used only 2 cameras but code is compatble for more cameras) , wich can be later installed on a headset to get real time estimation of heads position eg. using this data in an augumented or virtual reality applications.
 An extra functionality that my project provides: creating 3D points of the room/inveroment youre in and saving them for later use eg. reconstructing the scene. 
@@ -15,7 +14,7 @@ An extra functionality that my project provides: creating 3D points of the room/
 <p>
 <h2>in this demonstration i only use 2 cameras because the hardware couldnt handle real time processing on more than two but the script supports any number of cameras. for Preprocess(calibration) and Realtime run</h2>
 <video  width="800" height="500" controls>
-<source src="imgs_for_web/FinalVRProjectVideo.mp4" type="video/mp4"></p>
+<source src="media/imgs_for_web/FinalVRProjectVideo.mp4" type="video/mp4"></p>
 </video>
 </p>
 <h2>Prerequisites and environment settings:</h2>
@@ -38,9 +37,9 @@ An extra functionality that my project provides: creating 3D points of the room/
 </p>
 <h2>hardware used:</h2>
 <br>1- Odroid
-<p><img src="imgs_for_web/hardwareO.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/hardwareO.jpeg" width="650" height="300"></p>
 <br>2- two sonny playstation webcams (they are very cheap an satisfies our needs but you can change it to any pinhole webcam)
-<p><img src="imgs_for_web/hardwareC.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/hardwareC.jpeg" width="650" height="300"></p>
  </p>
  
  <h2>Work flow:</h2>
@@ -92,15 +91,15 @@ Therefore now that we have from (5,6,7) projection matrixes and 2d points for ea
 
 <h2>some images to demonstrate the flow of the code</h2>
 <h1>3d points(red) and cameras (blue) relative in a world</h1>
-<p><img src="imgs_for_web/worldPointsandCamPOS.jpeg" width="650" height="300"></p>
-<p><img src="imgs_for_web/showingZ.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/worldPointsandCamPOS.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/showingZ.jpeg" width="650" height="300"></p>
 <h1>Surf and match for 2 cameras on 2 frames</h1>
 <br>first frame
-<p><img src="imgs_for_web/matchFrame1.jpeg" width="650" height="300"></p
+<p><img src="media/imgs_for_web/matchFrame1.jpeg" width="650" height="300"></p
 <br>second frame
-<p><img src="imgs_for_web/matchFrame2.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/matchFrame2.jpeg" width="650" height="300"></p>
 <h1>matched points from the first frame and second frame</h1>
-<p><img src="imgs_for_web/matcholdnew.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/matcholdnew.jpeg" width="650" height="300"></p>
 
 <h3>Also included in the assignment, scripts to test that all your functions and calculation are working correctly</h3>
 <p> first test transformation matrixs: open ProvingTransformations.py put youre cameras infront of a chessboard meassure thier positions then when you run it you should have same position for cameras from solvepnp on chessboard pattern that you get from your Transformation matrix and also the same as you measured. 
@@ -108,10 +107,10 @@ Therefore now that we have from (5,6,7) projection matrixes and 2d points for ea
 <p> second test triangulation of points: open Provingtriangulation.py same procedure cameras infront of chess 
 and now when you run this script you should get a perfect chess boards just like i got in the upper middle square,
 NOTICE that when i tilt the cameras or change positions of it it still get perfect chessboard. also in this code you will test that you get the right position of camera wether you did solvepnp on detected chessboard pattern or on the 3d points youve just triangulaated</p>
-<p><img src="imgs_for_web/SCSC.jpeg" width="650" height="300"></p>
-<p><img src="imgs_for_web/SCTC.jpeg" width="650" height="300"></p>
-<p><img src="imgs_for_web/TCSC.jpeg" width="650" height="300"></p>
-<p><img src="imgs_for_web/TCTC.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/SCSC.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/SCTC.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/TCSC.jpeg" width="650" height="300"></p>
+<p><img src="media/imgs_for_web/TCTC.jpeg" width="650" height="300"></p>
 <br> you can clearly see that the tilt of the cameras didnt change the chessboard position in the world 
 
 
