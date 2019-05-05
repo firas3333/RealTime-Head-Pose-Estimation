@@ -25,11 +25,11 @@ An extra functionality:3D map construction (points) of the room/inveroment youre
 <br>and downloaded a handful of libraries that you can see in the code itself
 <h2>Main functions used in this project:</h2>
 <p>
-	-SOLVEPNP/RANSAC to estimate cameras position.
- 	Solvpnp ,provided with 3D points, corresponding 2D points(where 3d points are the points in the actual world and 2d points are the points on the image plane of the camera) and the cameras intrinsics matrix, can compute and return to me the position of the camera according to a specific word that i create (explained in the work flow).
- 	-Surf to find/create 2d points
- 	-brute force/Flann Matcher to decide wich 2d points a couple of cameras can see
- 	-triangulate create 3d points from the 2d points found in the Matcher  
+<br>-SOLVEPNP/RANSAC to estimate cameras position.
+Solvpnp ,provided with 3D points, corresponding 2D points(where 3d points are the points in the actual world and 2d points are the     points on the image plane of the camera) and the cameras intrinsics matrix, can compute and return to me the position of the camera  according to a specific word that i create (explained in the work flow).
+<br>-Surf to find/create 2d points
+<br>-brute force/Flann Matcher to decide wich 2d points a couple of cameras can see
+<br>-triangulate create 3d points from the 2d points found in the Matcher  
 
 
 </p>
