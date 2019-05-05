@@ -4,7 +4,7 @@ import ProvingClass
 from glob import glob
 import codecs , json
 import math
-import ProvingClass
+import TESTClass
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
