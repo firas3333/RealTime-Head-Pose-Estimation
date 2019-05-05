@@ -2,13 +2,13 @@
 <html>
 <body>
 
-<h1>Project: Real time estimating of cameras(head) position/rotation </h1>
+<h1>Project: RealTime Head Pose Estimation </h1>
+<h2>Overview:</h2>
+<p> This projects main purpose is to estimate orientation and position of a group of cameras(in my project i used only 2 cameras but code is compatble for more cameras) , wich can be later installed on a headset to get real time estimation of heads position ,this can be used for an augumented or virtual reality applications.
+An extra functionality:3D map construction (points) of the room/inveroment youre in and saving it. 
+</p>
 <h3>By Firas Ayoub</h2>
 <p><img src="media/imgs_for_web/vr.png" width="750" height="450"></p>
-<h2>Overview:</h2>
-<p> This projects main purpose is to estimate orientation and position of a group of cameras(in my project i used only 2 cameras but code is compatble for more cameras) , wich can be later installed on a headset to get real time estimation of heads position eg. using this data in an augumented or virtual reality applications.
-An extra functionality that my project provides: creating 3D points of the room/inveroment youre in and saving them for later use eg. reconstructing the scene. 
-</p>
 <p>
 <h2>in this demonstration i only use 2 cameras because the hardware couldnt handle real time processing on more than two but the script supports any number of cameras. for Preprocess(calibration) and Realtime run</h2>
 <video  width="800" height="500" controls>
