@@ -11,7 +11,7 @@ import os
 from common import splitfn
 import sys, getopt
 from glob import glob
-import ProvingClass
+import TESTClass
 import matplotlib.pyplot as plt
 
 
