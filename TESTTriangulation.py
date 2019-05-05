@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import ProvingClass
+import TESTClass
 from glob import glob
 import codecs , json
 import math
